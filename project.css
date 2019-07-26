@@ -11,17 +11,26 @@ header {
 body {
   margin: 0;
 }
+
+#myVid {
+  position: center;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 #nature {
   overflow: hidden;
 }
 
 
 #title{
-  font-size: 50px;
-  border: 5px double;
+  font-size: 100px;
+  border: 7px inset;
   -webkit-border-stroke-color: black;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   margin: 0px;
   position: absolute;
   top: 50%;
@@ -36,10 +45,12 @@ body {
 				-1px -1px 0 #000;
 }
 
+
 nav ul {
   list-style-type: none;
-  margin: 0 2px;
-  padding-left: 0;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 25px;
   display: flex;
   justify-content: space-around;
   overflow: hidden;
@@ -47,15 +58,26 @@ nav ul {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 5%;
+  border-bottom: 4px solid;
+  border-color: gray;
+
 }
 
+#logo{
+  position:relative;
+  top: -23px;
+}
 nav li {
   float: left;
+  padding-right: 70px;
+
 }
 
 nav li a {
   display: block;
-  color: #111;
+  color: black;
+  font-size: 25px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -63,9 +85,23 @@ nav li a {
 
 nav li a:hover:not(.active) {
   background-color: white;
+  height: 100%;
 }
 
 nav .active {
   background-color: white;
   font-weight: bold;
+  height:100%;
+}
+
+#secondPage {
+  background-color: mintcream;
+  padding: 200px
+}
+
+#aboutUs {
+  border: 4px inset;
+  border-color: black;
+  background-color: white;
+  text-align: center;
 }
