@@ -1,0 +1,11 @@
+h1{font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+h3{font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+#text {
+  column-count: 2;
+  float: left;
+  width: 100%;
+}
